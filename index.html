@@ -284,7 +284,7 @@ document.getElementById("surveyForm").addEventListener("submit", async function 
 
     // ✅ SEND DATA TO GOOGLE SHEET
     try {
-        await fetch("https://script.google.com/macros/s/AKfycbxDHBcTtPZQPAKj4G28tqtaztzaEmZ1gTzrshj_q9zhLobOeA7YsROAD1BqOJZyk4U/exec", {
+        await fetch("https://script.google.com/macros/s/AKfycbxDHBcTtPZQPAKj4G28tqtaztzaEmZ1gTzrshj_q9zhLobOeA7YsROAD1BqOJZyk4U/exec?group=aula-1", {
             method: "POST",
             mode: "no-cors",
             headers: { "Content-Type": "application/json" },
